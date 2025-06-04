@@ -1,0 +1,81 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+}
+
+.card {
+  background: #2e2a4a;
+  padding: 2rem 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.8);
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.prompt-text {
+  background: #423f66;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-style: italic;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  user-select: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  background: #5a53a3;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 10px;
+  color: #ddd;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(90,83,163,0.4);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background: #7e77d1;
+  box-shadow: 0 6px 15px rgba(126,119,209,0.7);
+}
+
+.note {
+  font-size: 0.75rem;
+  color: #bbb;
+  user-select: none;
+}
